@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livros 2022</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url(pexels-ricardo-esquivel-1907785.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        table{
+            border-collapse: collapse;
+            margin: auto;
+            text-align: center;
+        }
+        caption{
+            background-color: rgb(17, 44, 40);
+            padding: 15px;
+            font-size: 1.6em;
+            color: white;
+            font-weight: bold;
+            border: 1px solid black;
+            border-bottom: none;
+            font-family: Arial, Helvetica, sans-serif, Tahoma, Geneva, Verdana, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        th{
+            background-color: rgb(29, 80, 71);
+            border: 1px solid black;
+            padding: 10px;
+            color: white;
+        }
+        td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: white;
+        }
+        thead > tr >th{
+            background-color: rgb(29, 80, 71);
+            position: sticky;
+            top: -1px;
+        }
+        tbody > tr > th{
+            background-color: rgba(29, 80, 71, 0.829);
+        }
+        td.total{
+            color: white;
+            background-color: rgba(29, 80, 71, 0.829);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Livros lidos em 2022</caption>
+        <thead>
+            <tr>
+                <th scope="col">Livros</th>
+                <th scope="col">Saga</th>
+                <th scope="col">Mês de Término</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Leah fora de sintonia</td>
+                <td>Simonverso 2/4</td>
+                <td>Janeiro</td>
+            </tr>
+            <tr>
+                <td>Os dois morrem no final</td>
+                <td>-</td>
+                <td>Janeiro</td>
+            </tr>
+            <tr>
+                <td>Os 27 crushes de Molly</td>
+                <td>Simonverso 3/4</td>
+                <td>Janeiro</td>
+            </tr>
+            <tr>
+                <th colspan="2" scope="row">Lidos em Janeiro</th>
+                <td class="total"><strong>3</strong></td>
+            </tr>
+            <tr>
+                <td>O Filho de Netuno</td>
+                <td>Hérois do Olimpo 2/8</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Garotos mortos não contam segredos</td>
+                <td>Garotos Mortos 1/4</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Garotos mortos não contam mentiras</td>
+                <td>Garotos Mortos 2/4</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Garotos mortos não sangram</td>
+                <td>Garotos Mortos 3/4</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Garotos mortos não descobrem verdades</td>
+                <td>Garotos Mortos 4/4</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <th colspan="2" scope="row">Lidos em Fevereiro</th>
+                <td class="total"><strong>-</strong></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="2">Total de livros lidos</th>
+                <th>3</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
